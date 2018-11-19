@@ -1,0 +1,440 @@
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .header-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.two-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .two-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (min-width: 992px) {
+  .two-grid {
+    grid-template-columns: 2fr 3fr;
+  }
+}
+.two-grid a {
+  text-decoration: none;
+}
+
+.two-grid-equal {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .two-grid-equal {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.three-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 250px);
+}
+@media (min-width: 768px) {
+  .three-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 250px);
+  }
+}
+@media (min-width: 992px) {
+  .three-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+.three-grid a {
+  text-decoration: none;
+}
+
+.four-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 250px);
+}
+@media (min-width: 768px) {
+  .four-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+@media (min-width: 992px) {
+  .four-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 250px);
+  }
+}
+.four-grid a {
+  text-decoration: none;
+}
+
+.center {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.center h2 {
+  padding-bottom: 20px;
+  color: #596573;
+  font-family: "Lato", sans-serif;
+}
+
+.headerlogo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  margin: auto;
+  height: 100px;
+}
+@media (min-width: 768px) {
+  .headerlogo {
+    padding-top: 0;
+    margin: 20px 15px 10px;
+  }
+}
+
+.locallogo {
+  margin: auto;
+  display: block;
+  width: 180px;
+}
+@media (min-width: 768px) {
+  .locallogo {
+    width: 284px;
+    margin: 20px auto 10px;
+  }
+}
+
+.content {
+  margin-top: 7.5%;
+}
+.content img {
+  width: 100%;
+}
+
+.contentText {
+  font-size: 1.2em;
+}
+.contentText h2 {
+  font-family: "Lato", sans-serif;
+  color: #596573;
+}
+.contentText p {
+  font-family: "Merriweather", serif;
+}
+@media (min-width: 768px) {
+  .contentText {
+    padding-left: 5%;
+  }
+  .contentText h2 {
+    margin-top: 0;
+  }
+}
+.contentText ul {
+  font-family: "Merriweather", serif;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+  font-family: "Merriweather", serif;
+  font-size: 1.2em;
+}
+@media (min-width: 768px) {
+  .intro {
+    width: 75%;
+  }
+}
+
+nav {
+  color: #596573;
+  font-family: "Lato", sans-serif;
+}
+nav ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: block;
+  background-color: #596573;
+  width: 80%;
+  margin: 5px auto;
+  font-size: 1em;
+  text-align: center;
+}
+nav ul li a {
+  width: 80%;
+  margin: auto;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 0;
+}
+nav ul li a:hover {
+  opacity: 0.5;
+}
+nav ul li a:active {
+  color: #633793;
+}
+nav .nest {
+  display: none;
+}
+@media (min-width: 768px) {
+  nav ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    background-color: white;
+    display: inline-block;
+    width: 25%;
+    font-size: 1.2em;
+    margin: 0 15px;
+    text-align: center;
+  }
+  nav ul li a {
+    color: #596573;
+    display: block;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    opacity: 0.5;
+  }
+  nav ul li a:active {
+    color: #633793;
+  }
+  nav .nest {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+    font-size: 0.6em;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  nav .nest li {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+  }
+  nav .nest li a {
+    width: 80%;
+    margin: auto;
+  }
+  nav .nested {
+    position: relative;
+  }
+  nav .nested:hover .nest {
+    display: block;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .wrapper {
+    padding-top: 0;
+  }
+}
+.wrapper h1 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+.wrapper .green {
+  background-color: #00a198;
+}
+.wrapper .purple {
+  background-color: #596573;
+}
+
+.box {
+  font-family: "Lato", sans-serif;
+  color: #596573;
+  height: 90%;
+  width: 90%;
+  margin: 5%;
+  text-align: center;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.box .titleblock {
+  height: 50px;
+  position: relative;
+  top: 0;
+  background-color: #633793;
+  color: white;
+}
+.box .titleblock p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 0 5px 5px;
+  text-align: left;
+  border: none;
+}
+.box .contentblock {
+  margin-top: 0;
+  height: 195px;
+  position: relative;
+  left: -100%;
+  color: #596573;
+  background-color: white;
+  opacity: 0.7;
+  transition: left 0.5s;
+}
+.box .contentblock p {
+  margin-top: 0;
+  padding: 10px;
+}
+.box:hover .contentblock {
+  left: 0;
+}
+.box:hover .titleblock {
+  background-color: #00a198;
+}
+
+.box1 {
+  background-image: url("../img/burnham.jpg");
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url("../img/local political engagement - manchester town hall.jpg");
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url("../img/Health and Care communications.jpg");
+  background-size: cover;
+}
+
+.box4 {
+  background-image: url("../img/campaign.jpg");
+  background-size: cover;
+}
+
+.box5 {
+  background-image: url("../img/broadcast.jpg");
+  background-size: cover;
+}
+
+.box6 {
+  background-image: url("../img/newspapers-444448_1920.jpg");
+  background-size: cover;
+}
+
+.valuesWrapper {
+  text-align: center;
+}
+.valuesWrapper h3 {
+  color: #596573;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+}
+.valuesWrapper h2 {
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.valuesWrapper p {
+  font-family: "Merriweather", serif;
+  padding-bottom: 20px;
+}
+
+.values {
+  margin: 15px auto;
+  width: 60%;
+}
+.values:nth-child(even) {
+  color: #00a198;
+}
+.values:nth-child(odd) {
+  color: #633793;
+}
+
+.colleague {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Lato", sans-serif;
+}
+.colleague h3 {
+  color: #596573;
+  margin-bottom: 0;
+}
+.colleague h4 {
+  margin: 5px 0 10px 0;
+  color: #00a198;
+}
+
+.headshot {
+  margin: auto;
+  width: 120px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: cover;
+  transition: all 0.4s;
+}
+.headshot:hover {
+  opacity: 0.5;
+}
+
+.andy {
+  background-image: url(../img/headshots/Andy.jpg);
+}
+
+.matt {
+  background-image: url(../img/headshots/Matt.jpg);
+}
+
+.ben {
+  background-image: url(../img/headshots/Ben.jpg);
+}
+
+.lauren {
+  background-image: url(../img/headshots/Lauren.jpg);
+}
+
+.paul {
+  background-image: url(../img/headshots/paul.jpg);
+}
+
+.burrows {
+  background-image: url(../img/headshots/burrows.jpg);
+}
+
+.gina {
+  background-image: url(../img/headshots/gina.jpg);
+}
+
+.bewick {
+  background-image: url(../img/headshots/bewick.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */
