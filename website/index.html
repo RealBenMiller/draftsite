@@ -1,20 +1,21 @@
 <!DOCTYPE HTML>
 <head>
     <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="utf-8"/>
     <title>Lexington Health Local</title>
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Frank+Ruhl+Libre" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <header>
         <div class="header-grid">
-            <img class="headerlogo" src="img/logo.png" />
-            <img class="locallogo" src="img/locallogo.png" /> 
+            <a href="http://lexcomm.co.uk"><img class="headerlogo" src="img/logo.png" /></a>
+            <a href="index.html"><img class="locallogo" src="img/locallogo.png" /></a>
         </div>
         <div class="center">   
-            <h2>TRUSTED. INFORMED. CREATIVE</h2>
+            <h2>TRUSTED | INFORMED | CREATIVE</h2>
         </div>
         <nav>
             <ul>
@@ -28,7 +29,14 @@
                         <li><a href="media.html">Media Management</a></li>
                     </ul>    
                 </li>
-                <li><a href="about.html">WHO WE ARE</a></li>
+                <li class="nested"><a href="about.html">WHO WE ARE</a>
+                    <ul class="nest">
+                        <li><a href="about.html#intro">Our Role</a></li>
+                        <li><a href="about.html#ourTeam">Our Team</a></li>
+                        <li><a href="about.html#ourBoard">Our Advisory Board</a></li>
+                        <li><a href="about.html#ourValues">Our Values</a></li>
+                    </ul>  
+                </li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
         </nav>
@@ -36,12 +44,6 @@
 
     <div class="wrapper">
         <div class="center">
-            <h1 class="green">Lexington Health Local</h1>
-            <div class="intro">
-                <p>The new NHS and social care system has seen a shift of power away from central Government, towards local health and care systems desperate to ensure they are clinically and financially sustainable.</p>
-                <p>Increasingly, the whirlwind of digital and data driven advances, such as blockchain, real world data and AI, are seen as part of the solution, meaning organisations are fighting to occupy a crowded and complex space.</p>
-                <p>Lexington Health Local can help you understand, navigate and connect with local health and care systems and local tech ecosystems to better achieve your business goals.</p>
-            </div>
             <div class="three-grid">
                 <a href="local.html">
                     <div class="box box1">

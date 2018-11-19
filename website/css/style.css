@@ -130,7 +130,7 @@
   color: #596573;
 }
 .contentText p {
-  font-family: "Merriweather", serif;
+  font-family: "Frank Ruhl Libre", serif;
 }
 @media (min-width: 768px) {
   .contentText {
@@ -141,13 +141,13 @@
   }
 }
 .contentText ul {
-  font-family: "Merriweather", serif;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 .intro {
   width: 80%;
   margin: auto;
-  font-family: "Merriweather", serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-size: 1.2em;
 }
 @media (min-width: 768px) {
@@ -255,6 +255,7 @@ nav .nest {
 .wrapper {
   width: 90%;
   margin: auto;
+  padding-bottom: 100px;
 }
 @media (min-width: 992px) {
   .wrapper {
@@ -355,7 +356,7 @@ nav .nest {
 .valuesWrapper h3 {
   color: #596573;
   text-decoration: none;
-  font-family: "Merriweather", serif;
+  font-family: "Frank Ruhl Libre", serif;
 }
 .valuesWrapper h2 {
   font-family: "Lato", sans-serif;
@@ -364,7 +365,7 @@ nav .nest {
   margin: 0;
 }
 .valuesWrapper p {
-  font-family: "Merriweather", serif;
+  font-family: "Frank Ruhl Libre", serif;
   padding-bottom: 20px;
 }
 
@@ -435,6 +436,24 @@ nav .nest {
 
 .bewick {
   background-image: url(../img/headshots/bewick.jpg);
+}
+
+.contactHeader {
+  margin-top: 0;
+}
+
+.emailContact {
+  margin-top: 20px;
+  text-align: center;
+}
+.emailContact a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #00a198;
+  color: white;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

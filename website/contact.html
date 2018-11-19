@@ -1,23 +1,25 @@
 <!DOCTYPE HTML>
-<head>
+<<head>
     <link rel="shortcut icon" href="favicon.ico" />
-    <title>Lexington Health Local | Contact Us </title>
+    <meta charset="utf-8"/>
+    <title>Lexington Health Local</title>
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Frank+Ruhl+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <header>
         <div class="header-grid">
-            <img class="headerlogo" src="img/logo.png" />
-            <img class="locallogo" src="img/locallogo.png" /> 
+            <a href="http://lexcomm.co.uk"><img class="headerlogo" src="img/logo.png" /></a>
+            <a href="index.html"><img class="locallogo" src="img/locallogo.png" /></a>
         </div>
         <div class="center">   
-            <h2>TRUSTED. INFORMED. CREATIVE</h2>
+            <h2>TRUSTED | INFORMED | CREATIVE</h2>
         </div>
         <nav>
             <ul>
-                <li class="nested"><a href="index.html">WHAT WE DO</a>
+                <li class="nested"><a href="index.html" class="active">WHAT WE DO</a>
                     <ul class="nest">
                         <li><a href="local.html">Local and Regional Policy Insight</a></li>
                         <li><a href="engagement.html">Local Political Engagement</a></li>
@@ -27,16 +29,23 @@
                         <li><a href="media.html">Media Management</a></li>
                     </ul>    
                 </li>
-                <li><a href="about.html">WHO WE ARE</a></li>
-                <li><a href="contact.html" class="active">CONTACT US</a></li>
+                <li class="nested"><a href="about.html">WHO WE ARE</a>
+                    <ul class="nest">
+                        <li><a href="about.html#intro">Our Role</a></li>
+                        <li><a href="about.html#ourTeam">Our Team</a></li>
+                        <li><a href="about.html#ourBoard">Our Advisory Board</a></li>
+                        <li><a href="about.html#ourValues">Our Values</a></li>
+                    </ul>  
+                </li>
+                <li><a href="contact.html">CONTACT US</a></li>
             </ul>
         </nav>
     </header>
     <div class="wrapper">
         <div class="two-grid content">
-            <img src="img/broadcast.jpg"/>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2115.3406456934736!2d-2.247826930564978!3d53.47936602701628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c4ccf36f4accd37!2sLexington+Communications!5e0!3m2!1sen!2suk!4v1542637444760" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div class="contentText">
-                <h1 class="green">GET IN TOUCH</h1>
+                <h1 class="green contactHeader">GET IN TOUCH</h1>
                 <p>For more information on how Lexington Health Local can help you achieve your objectives, please use the details below to get in touch</p>
                 <div class="two-grid-equal">
                     <div class="colleague">
@@ -63,6 +72,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="emailContact">
+            <a href="document/Lexington Health Local.pdf" download>Contact Us</a>
         </div>
     </div>
 </body>
